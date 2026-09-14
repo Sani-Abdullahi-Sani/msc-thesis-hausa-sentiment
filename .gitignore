@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.backup
+*.bak
+.DS_Store
+*.pt
+*.bin
+checkpoints/
+logs_afriberta/

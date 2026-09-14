@@ -1,0 +1,469 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<UNK>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "<PAD>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<CLS>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<SEP>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<UNK>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<UNK>": 0,
+      "<PAD>": 1,
+      "<CLS>": 2,
+      "<SEP>": 3,
+      "'": 4,
+      "a": 5,
+      "b": 6,
+      "c": 7,
+      "d": 8,
+      "f": 9,
+      "g": 10,
+      "h": 11,
+      "i": 12,
+      "j": 13,
+      "k": 14,
+      "l": 15,
+      "m": 16,
+      "n": 17,
+      "o": 18,
+      "r": 19,
+      "s": 20,
+      "t": 21,
+      "u": 22,
+      "w": 23,
+      "y": 24,
+      "ƙ": 25,
+      "ma": 26,
+      "ya": 27,
+      "kya": 28,
+      "na": 29,
+      "ba": 30,
+      "da": 31,
+      "mai": 32,
+      "mu": 33,
+      "ka": 34,
+      "kyau": 35,
+      "in": 36,
+      "wa": 37,
+      "ta": 38,
+      "dai": 39,
+      "ban": 40,
+      "ga": 41,
+      "di": 42,
+      "dadi": 43,
+      "kyawa": 44,
+      "ni": 45,
+      "muni": 46,
+      "ko": 47,
+      "fi": 48,
+      "mafi": 49,
+      "ci": 50,
+      "ici": 51,
+      "kaici": 52,
+      "kama": 53,
+      "ri": 54,
+      "naga": 55,
+      "nagari": 56,
+      "daidai": 57,
+      "as": 58,
+      "hin": 59,
+      "jin": 60,
+      "ras": 61,
+      "rashin": 62,
+      "mban": 63,
+      "ƙya": 64,
+      "bamban": 65,
+      "mubamban": 66,
+      "banƙya": 67,
+      "mubambanta": 68,
+      "banƙyama": 69,
+      "kyama": 70,
+      "kkyawa": 71,
+      "kyakkyawa": 72,
+      "komai": 73,
+      "kyakyawa": 74,
+      "kyakyawan": 75,
+      "akaici": 76,
+      "sakaici": 77,
+      "tsakaici": 78,
+      "matsakaici": 79,
+      "ab": 80,
+      "dda": 81,
+      "ku": 82,
+      "ll": 83,
+      "un": 84,
+      "yau": 85,
+      "yadda": 86,
+      "takaici": 87,
+      "gaba": 88,
+      "kamar": 89,
+      "kamata": 90,
+      "abin": 91,
+      "kull": 92,
+      "kullun": 93,
+      "kowa": 94,
+      "ina": 95,
+      "so": 96,
+      "mmu": 97,
+      "mummu": 98,
+      "mummuna": 99,
+      "al": 100,
+      "ada": 101
+    },
+    "merges": [
+      [
+        "m",
+        "a"
+      ],
+      [
+        "y",
+        "a"
+      ],
+      [
+        "k",
+        "ya"
+      ],
+      [
+        "n",
+        "a"
+      ],
+      [
+        "b",
+        "a"
+      ],
+      [
+        "d",
+        "a"
+      ],
+      [
+        "ma",
+        "i"
+      ],
+      [
+        "m",
+        "u"
+      ],
+      [
+        "k",
+        "a"
+      ],
+      [
+        "kya",
+        "u"
+      ],
+      [
+        "i",
+        "n"
+      ],
+      [
+        "w",
+        "a"
+      ],
+      [
+        "t",
+        "a"
+      ],
+      [
+        "da",
+        "i"
+      ],
+      [
+        "ba",
+        "n"
+      ],
+      [
+        "g",
+        "a"
+      ],
+      [
+        "d",
+        "i"
+      ],
+      [
+        "da",
+        "di"
+      ],
+      [
+        "kya",
+        "wa"
+      ],
+      [
+        "n",
+        "i"
+      ],
+      [
+        "mu",
+        "ni"
+      ],
+      [
+        "k",
+        "o"
+      ],
+      [
+        "f",
+        "i"
+      ],
+      [
+        "ma",
+        "fi"
+      ],
+      [
+        "c",
+        "i"
+      ],
+      [
+        "i",
+        "ci"
+      ],
+      [
+        "ka",
+        "ici"
+      ],
+      [
+        "ka",
+        "ma"
+      ],
+      [
+        "r",
+        "i"
+      ],
+      [
+        "na",
+        "ga"
+      ],
+      [
+        "naga",
+        "ri"
+      ],
+      [
+        "dai",
+        "dai"
+      ],
+      [
+        "a",
+        "s"
+      ],
+      [
+        "h",
+        "in"
+      ],
+      [
+        "j",
+        "in"
+      ],
+      [
+        "r",
+        "as"
+      ],
+      [
+        "ras",
+        "hin"
+      ],
+      [
+        "m",
+        "ban"
+      ],
+      [
+        "ƙ",
+        "ya"
+      ],
+      [
+        "ba",
+        "mban"
+      ],
+      [
+        "mu",
+        "bamban"
+      ],
+      [
+        "ban",
+        "ƙya"
+      ],
+      [
+        "mubamban",
+        "ta"
+      ],
+      [
+        "banƙya",
+        "ma"
+      ],
+      [
+        "kya",
+        "ma"
+      ],
+      [
+        "k",
+        "kyawa"
+      ],
+      [
+        "kya",
+        "kkyawa"
+      ],
+      [
+        "ko",
+        "mai"
+      ],
+      [
+        "kya",
+        "kyawa"
+      ],
+      [
+        "kyakyawa",
+        "n"
+      ],
+      [
+        "a",
+        "kaici"
+      ],
+      [
+        "s",
+        "akaici"
+      ],
+      [
+        "t",
+        "sakaici"
+      ],
+      [
+        "ma",
+        "tsakaici"
+      ],
+      [
+        "a",
+        "b"
+      ],
+      [
+        "d",
+        "da"
+      ],
+      [
+        "k",
+        "u"
+      ],
+      [
+        "l",
+        "l"
+      ],
+      [
+        "u",
+        "n"
+      ],
+      [
+        "ya",
+        "u"
+      ],
+      [
+        "ya",
+        "dda"
+      ],
+      [
+        "ta",
+        "kaici"
+      ],
+      [
+        "ga",
+        "ba"
+      ],
+      [
+        "kama",
+        "r"
+      ],
+      [
+        "kama",
+        "ta"
+      ],
+      [
+        "ab",
+        "in"
+      ],
+      [
+        "ku",
+        "ll"
+      ],
+      [
+        "kull",
+        "un"
+      ],
+      [
+        "ko",
+        "wa"
+      ],
+      [
+        "i",
+        "na"
+      ],
+      [
+        "s",
+        "o"
+      ],
+      [
+        "m",
+        "mu"
+      ],
+      [
+        "mu",
+        "mmu"
+      ],
+      [
+        "mummu",
+        "na"
+      ],
+      [
+        "a",
+        "l"
+      ],
+      [
+        "a",
+        "da"
+      ]
+    ]
+  }
+}
