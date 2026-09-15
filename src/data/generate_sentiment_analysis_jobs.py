@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Generate SLURM jobs for sentiment analysis experiments with all initialization methods
-Tests imbalanced initialization hypothesis on sentiment classification
-"""
-
 import os
 
 # Sentiment analysis configuration
