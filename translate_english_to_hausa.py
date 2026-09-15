@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Translate English sentiment data to Hausa using dammyogt/english-to-hausa-translation
-Optimized for cluster usage with batch processing and progress tracking
-"""
-
 import pandas as pd
 import torch
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, pipeline
