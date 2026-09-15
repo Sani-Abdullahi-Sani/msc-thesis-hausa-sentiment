@@ -1,7 +1,3 @@
-"""
-Transformer model architecture for text classification with proper initialization support.
-"""
-
 import math
 import torch
 import torch.nn as nn
