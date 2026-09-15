@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Create matched subsamples for controlled cross-lingual comparison
-Ensures all datasets have identical size, splits, and class distributions
-"""
-
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import os
