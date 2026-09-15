@@ -1,7 +1,3 @@
-"""
-Training utilities and trainer class with enhanced CSV metrics tracking
-Optimized for research experiments with proper statistical tracking
-"""
 import os
 import torch
 import torch.nn as nn
