@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-"""
-SYSTEMATIC EXPERIMENT RUNNER
-Runs all experiments for thesis with multiple seeds
-- 2 datasets × 2 tokenizers × 3 initializations × 3 seeds = 36 experiments
-"""
-
 import sys
 import os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
