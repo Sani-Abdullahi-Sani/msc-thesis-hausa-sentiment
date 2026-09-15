@@ -1,7 +1,3 @@
-"""
-Phoneme-based tokenizer that converts text to phonetic representations
-using epitran for transliteration and custom phoneme segmentation.
-"""
 import re
 from collections import Counter
 from typing import List, Dict, Any
