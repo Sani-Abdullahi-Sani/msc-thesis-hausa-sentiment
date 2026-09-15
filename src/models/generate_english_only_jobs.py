@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-Generate comprehensive English-only experiments with all initialization methods
-Including proper imbalanced initialization for research purposes
-"""
-
 import os
 
 # English-only configuration with proper research setup
