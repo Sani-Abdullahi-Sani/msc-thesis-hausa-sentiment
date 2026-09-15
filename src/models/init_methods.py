@@ -1,8 +1,3 @@
-"""
-Weight initialization methods module.
-Provides different initialization methods for neural network weights.
-"""
-
 import math
 import torch
 import torch.nn.init as init
