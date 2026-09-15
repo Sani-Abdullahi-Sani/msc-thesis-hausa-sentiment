@@ -1,9 +1,4 @@
-"""
-Fine-tune AfriBERTa on Native Hausa or Translated Hausa, always evaluating
-on the Native Hausa test set -- supplementary experiment for Examiner 1's
-request (Limitations, p.61): does the native-vs-translated degradation
-persist at higher model capacity with a pretrained multilingual model?
-"""
+
 import argparse
 import json
 import os
