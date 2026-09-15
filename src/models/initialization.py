@@ -1,7 +1,3 @@
-"""
-Weight initialization methods for neural networks
-Implements Xavier, He, Generalized, and Imbalanced initialization methods
-"""
 import math
 import torch
 import torch.nn.init as init
